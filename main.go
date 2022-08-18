@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"github.com/go-stockapi/router"
+	"github.com/azeezdot123/go-stockapi/router"
 )
 
 func main() {
