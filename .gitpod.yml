@@ -15,7 +15,7 @@ ports:
     visibility: public
 
   - port: 5432
-    onOpen: open-preview
+    onOpen: ignore
 
 
 
