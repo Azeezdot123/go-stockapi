@@ -11,9 +11,11 @@ tasks:
 
 ports:
   - port: 8000
-    onOpen: open-browser
+    onOpen: open-preview
     visibility: public
 
   - port: 5432
+    onOpen: notify
+
 
 
