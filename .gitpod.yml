@@ -6,6 +6,7 @@ tasks:
     init: go get && go build main.go
     command: |
       gp ports await 5432
+      sh createdb.sh
       go run main.go
 
 ports:
