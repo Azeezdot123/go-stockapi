@@ -22,7 +22,7 @@ func CreateConnection() *sql.DB {
 	// 	log.Fatal("Error loading .env file")
 	// }
 	// this is just using for testing it is not a production code .
-	POSTGREURL := "postgres://admin:admin@localhost:5432/stockdb"
+	POSTGREURL := "postgres://gitpod:gitpod@localhost:5432/stockdb"
 
 	db, err := sql.Open("postgres", POSTGREURL)
 	if err != nil {

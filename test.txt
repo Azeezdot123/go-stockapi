@@ -1,5 +1,4 @@
 CREATE DATABASE stockdb;
-CREATE USER admin WITH ENCRYPTED PASSWORD 'admin';
-GRANT ALL PRIVILEGES ON DATABASE stockdb TO "admin";
+GRANT ALL PRIVILEGES ON DATABASE stockdb TO "gitpod";
 \c stockdb;
 CREATE TABLE stocks ( stockid SERIAL PRIMARY KEY, name TEXT, price INT, company TEXT);
