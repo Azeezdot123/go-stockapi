@@ -1,4 +1,0 @@
-CREATE DATABASE stocksdb;
-GRANT ALL PRIVILEGES ON DATABASE stocksdb TO "gitpod";
-\c stocksdb;
-CREATE TABLE stocks ( stockid SERIAL PRIMARY KEY, name TEXT, price INT, company TEXT);
